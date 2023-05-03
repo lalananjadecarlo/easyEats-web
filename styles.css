@@ -1,0 +1,278 @@
+body {
+  background-color: rgb(36, 36, 36);
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.btn-primary{
+  display: inline-block;
+  background-color: #007bff; 
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  text-decoration: none;
+  border-radius: 0.25rem; 
+}
+
+.btn-danger{
+  display: inline-block;
+  background-color: rgb(148, 25, 25); 
+  color: #fff;
+  padding: 0.5rem 1rem; 
+  text-decoration: none;
+  border-radius: 0.25rem; 
+}
+
+.small-image{
+  width: 500px;
+  height: 300px;
+}
+.card-portrait {
+  width: 10rem; 
+  height: 30rem;
+}
+
+.card-profile {
+  width: 10rem; 
+  height: 20rem;
+}
+
+.img-fluid {
+  width: 800px;
+  height: 600px;
+}
+.card-img-top{
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.card {
+  color: white;
+  margin: 10px 10px;
+  background-color: #2222229c;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.card-gray {
+  margin: 10px 10px;
+  background-color: rgba(117, 117, 117, 0.671);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+
+.text-white{
+  color: white;
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: 1px solid rgba(0,0,0,.125);
+  padding: .75rem 1.25rem;
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 16px;
+}
+
+.table-custom {
+  margin-top: 16px;
+  border: 1px solid #dee2e6;
+  border-collapse: collapse;
+  width: 75%;
+  max-width: 100%;
+  overflow-x: auto;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table-custom th,
+.table-custom td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table-custom thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-custom tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table-custom .table-dark th {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #454d55;
+}
+
+.table-custom .table-dark td {
+  color: #fff;
+  background-color: #454d55;
+  border-color: #454d55;
+}
+
+.navbar {
+  background-color: #00000052;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+	background-color: #000000;
+	padding: 20px;
+	text-align: center;
+  width: 100%;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #666;
+}
+
+.profile-picture {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.ml-2{
+  margin-left: 16px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 40%;
+  right: 72%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+.w-50{
+  width: 50%;
+}
+
+.wr-5{
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 0;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+@media screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+  input, textarea {
+    margin-bottom: 10px;
+  }
+}
+
+.w-25{
+  width: 25%;
+}
